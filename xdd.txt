@@ -1,0 +1,98 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _20241120szinmuveszet
+{
+	class Szinesz
+	{
+		public int ev, oszkDijSzama;
+		public string nev, csillJegy;
+
+		public Szinesz(string egysor)
+		{
+			string[] darabok = egysor.Trim().Split(';');
+			nev = darabok[0];
+			ev = Convert.ToInt32(darabok[1]);
+			csillJegy = darabok[2];
+			if (darabok[3] == "")
+			{
+				oszkDijSzama = 0;
+			}
+			else
+			{
+				oszkDijSzama = Convert.ToInt32(darabok[3]);
+			}
+			
+		}
+	}
+	class Program
+	{
+		static List<Szinesz> szineszek = new List<Szinesz>();
+		static void Main(string[] args)
+		{
+			f1();
+			f2();
+			f345();
+			f6();
+			Console.WriteLine("Nyomj entert: ");
+			Console.ReadLine();
+		}
+		static void f1()
+		{
+			string[] beolvas = File.ReadAllLines("oscar.csv", Encoding.UTF8);
+			foreach (var item in beolvas)
+			{
+				szineszek.Add(new Szinesz(item));
+			}
+			
+		} 
+		static void f2()
+		{
+			Console.WriteLine(szineszek.Count);
+		}
+		static void f345()
+		{
+			int szamlalo = 0;
+			int nemkaptak = 0;
+			int osszesen = 0;
+			foreach (var item in szineszek)
+			{
+				if (item.oszkDijSzama > 0)
+				{
+					szamlalo++;
+					osszesen += item.oszkDijSzama;
+				}
+				else
+				{
+					nemkaptak++;
+				}
+			}
+			Console.WriteLine($"3. Feladat: Az osztkárdíjasok száma: {szamlalo}.");
+			Console.WriteLine($"4. Feladat: Az Ennyien nem kaptak oszkárdíjat: {nemkaptak}.");
+			Console.WriteLine($"5. Feladat: Összesen  ennyi oszkárdíjat: {osszesen}");
+
+
+		}
+		static void f6()
+		{
+			int maxev = 2000;
+			string neve = "";
+			foreach (var item in szineszek)
+			{
+				if (item.ev < maxev)
+				{
+					maxev = item.ev;
+					neve = item.nev;
+
+
+				}
+			}
+			Console.WriteLine($"6 Feladat: A legidősebb színész: {neve}");
+		}
+
+	}
+}
