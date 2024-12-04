@@ -1,0 +1,100 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _20241204
+{
+
+
+	class Lift
+	{
+		public int sorszam, indul, cel;
+		public string idopont;
+		public Lift(string egysor)
+		{
+			string[] darabok = egysor.Trim().Split();
+			idopont = darabok[0];
+			sorszam = Convert.ToInt32(darabok[1]);
+			indul = Convert.ToInt32(darabok[2]);
+			cel = Convert.ToInt32(darabok[3]);
+
+		}
+	}
+	class Program
+	{
+		static List<Lift> adatok = new List<Lift>();
+		static void Main(string[] args)
+		{
+			f1();
+			f2();
+			f3();
+			f4();
+			f7();
+			Console.WriteLine("Nyomj entert");
+			Console.ReadLine();
+
+		}
+		static void f1()
+		{
+			string[] beolvass = File.ReadAllLines("lift.txt", Encoding.Default);
+			foreach (var item in beolvass)
+			{
+				adatok.Add(new Lift(item));
+			}
+		}
+		static void f2()
+		{
+			Console.WriteLine(adatok.Count);
+		}
+		static void f3()
+		{
+
+			Console.WriteLine(adatok[0].idopont);
+			Console.WriteLine(adatok[adatok.Count - 1].idopont);
+
+		}
+		static void f4()
+		{
+			List<int> maxii = new List<int>();
+			foreach (var item in adatok)
+			{
+				maxii.Add(item.cel);
+			}
+			Console.WriteLine(maxii.Max());
+		}
+		static void f5()
+		{
+
+		}
+		static void f6()
+		{
+
+		}
+			
+		static void f7()
+		{
+			Dictionary<string, int> statisztika = new Dictionary<string, int>();
+			foreach (var item in adatok)
+			{
+				if (statisztika.ContainsKey(item.idopont))
+				{
+					statisztika[item.idopont]++;
+				}
+				else
+				{
+					statisztika[item.idopont] = 1;
+				}
+			}
+			foreach (var item in statisztika)
+			{
+				Console.WriteLine($"{item.Key} - {item.Value}x");
+			}
+		}
+	}
+}
+
+
+
