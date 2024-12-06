@@ -149,7 +149,7 @@ def f18():
         if i.neve.split()[0] == "Molnár":
             molnarvagynagy += 1
         if i.neve.split()[0] == "Nagy":
-            molnarvagynagy += 1
+            molnarvagynagy -= 1
     if molnarvagynagy > 0:
         print("Molnár vezetélnevűből több diák van")
     else:
