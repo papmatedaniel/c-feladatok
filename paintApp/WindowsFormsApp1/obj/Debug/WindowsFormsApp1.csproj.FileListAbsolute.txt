@@ -1,0 +1,10 @@
+Z:\13\paintApp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+Z:\13\paintApp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+Z:\13\paintApp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+Z:\13\paintApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+Z:\13\paintApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+Z:\13\paintApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+Z:\13\paintApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+Z:\13\paintApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+Z:\13\paintApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+Z:\13\paintApp\WindowsFormsApp1\obj\Debug\PaintApp.Form1.resources
