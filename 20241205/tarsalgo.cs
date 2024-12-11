@@ -25,15 +25,19 @@ namespace _20241205
 	{
 		static List<Szinhaz> adatok = new List<Szinhaz>();
 		static int azonosito;
+		static bool nemvoltbentavegen = true;
+		static List<string> hanyperc = new List<string>();
+
 		static void Main(string[] args)
 		{
 			f1();
 			f2();
 			f3();
-			//f4();
-			//f5();
+			f4();
+			f5();
 			f6();
 			f7();
+			f8();
 			Console.WriteLine("Nyomj entert");
 			Console.ReadLine();
 		}
@@ -47,7 +51,7 @@ namespace _20241205
 		}
 		static void f2()
 		{
-			Console.WriteLine("2. Feladat");
+			Console.WriteLine("2. feladat");
 			int elsoBelepo = -1;
 			int utolsoKilepo = -1;
 			foreach (var item in adatok)
@@ -95,7 +99,8 @@ namespace _20241205
 		}
 		static void f4()
 		{
-			Dictionary<int, List<int>> kilepstat = new Dictionary<int, List<int>>();
+			Console.WriteLine("\n4. feladat");
+			SortedDictionary<int, List<int>> kilepstat = new SortedDictionary<int, List<int>>();
 			foreach (var item in adatok)
 			{
 				if (kilepstat.ContainsKey(item.azonosito))
@@ -120,46 +125,113 @@ namespace _20241205
 						kilepstat[item.azonosito] = new List<int>(0);
 					}
 				}
-				/*
-				foreach (var item in kilepstat)
-				{
-					if (item[kilepstat[item].Count -1 == 0)
-					{
-						Console.WriteLine();
-					}
-				}
-				*/
 			}
+			Console.Write("A végén a társalgóban voltak: ");
+			foreach (var item in kilepstat)
+			{
+				if (item.Value[item.Value.Count - 1] == 1)
+				{
+					Console.Write($" {item.Key} ");
+
+				}
+			}
+            Console.WriteLine();
 		}
 		static void f5()
 		{
-			//Az adott azonosítóhoz társítam a ki és beérkezés dátumát. És a köztes időt amikor bent volt. 
-			//A köztes időket összegyűjteném egy statisztikába, és amelyik időpont a legtöbbször szerepel, akkor voltak bent a legtöbben.
-			//tulbonyolitottam
-			Dictionary<string, List<int>> idopontok = new Dictionary<string, List<int>>();
+			Console.WriteLine("\n5. feladat");
+			int hanyanbent = 0;
+			int maxi = 0;
+			string maxiidopont = "";
 			foreach (var item in adatok)
 			{
-				Console.WriteLine($"{item.ora}: {item.perc} - {item.kibe}");
+				if (item.kibe == "be")
+				{
+					hanyanbent++;
+				}
+				else
+				{
+					hanyanbent--;
+				}
+				if (hanyanbent > maxi)
+				{
+					maxi = hanyanbent;
+					maxiidopont = item.ora + ":" + item.perc;
+				}
 			}
+			Console.WriteLine($"Például {maxiidopont}-kor voltak a legtöbben a társalgóban.");
+
 		}
 		static void f6()
 		{
-			Console.WriteLine("Adj meg egy azonosítót: ");
+			Console.WriteLine("\n6. feladat");
+			Console.Write("Adja meg a személy azonosítóját! ");
 			azonosito = Convert.ToInt32(Console.ReadLine());
 		}
 		static void f7()
 		{
+			Console.WriteLine("\n7. feladat");
 			List<List<string>> bentvolt = new List<List<string>>();
 			foreach (var item in adatok)
 			{
-				string idopont = $"{item.ora}:{item.perc}";
-				if (item.kibe == "be")
+				if (item.azonosito == azonosito)
 				{
-					Console.WriteLine(idopont);
-					bentvolt.Add(new List<string>());
-					bentvolt[bentvolt.Count - 1].Add(idopont);
+					string idopont = $"{item.ora}:{item.perc}";
+					if (item.kibe == "be")
+					{
+						bentvolt.Add(new List<string>());
+						bentvolt[bentvolt.Count - 1].Add(idopont);
+					}
+					else
+					{
+						bentvolt[bentvolt.Count - 1].Add(idopont);
+					}
 				}
+
 			}
+			foreach (var item in bentvolt)
+			{
+				if (item.Count == 2)
+				{
+					hanyperc.Add($"{item[0]}-{item[1]}");
+					Console.WriteLine($"{item[0]}-{item[1]}");
+				}
+				else
+				{
+					string utolsoidopont = $"{adatok[adatok.Count - 1].ora}:{adatok[adatok.Count - 1].perc}";
+					nemvoltbentavegen = false;
+					hanyperc.Add($"{item[0]}-{utolsoidopont}");
+					Console.WriteLine($"{item[0]}-");
+				}
+
+			}
+
+		}
+		static void f8()
+		{
+            Console.WriteLine("\n8. feladat.");
+			int osszesbentoltottido = 0;
+			foreach (var item in hanyperc)
+			{
+				int ora1 = Convert.ToInt32(item.Split("-")[0].Split(":")[0]) * 60;
+				int perc1 = Convert.ToInt32(item.Split("-")[0].Split(":")[1]);
+				int percosszeg1 = ora1 + perc1;
+				int ora2 = Convert.ToInt32(item.Split("-")[1].Split(":")[0]) * 60;
+				int perc2 = Convert.ToInt32(item.Split("-")[1].Split(":")[1]);
+				int percosszeg2 = ora2 + perc2;
+				osszesbentoltottido += percosszeg2 - percosszeg1;
+			}
+			if (nemvoltbentavegen)
+			{
+				Console.WriteLine($"A(z) {azonosito}. személy összesen {osszesbentoltottido + 1} percet volt bent, a megfigyelés végén nem volt a társalgóban");
+
+			}
+			else
+			{
+				Console.WriteLine($"A(z) {azonosito}. személy összesen {osszesbentoltottido + 1} percet volt bent, a megfigyelés végén a társalgóban volt.");
+
+			}
+
 		}
 	}
 }
