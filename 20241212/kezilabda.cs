@@ -33,7 +33,6 @@ namespace _20241212
 		static List<Kezilabda> adatok = new List<Kezilabda>();
 		static void Main(string[] args)
 		{
-
 			f1();
 			f2();
 			f3();
@@ -43,6 +42,12 @@ namespace _20241212
 			f7();
 			f8();
 			f9();
+			f10();
+			f11();
+			f12();
+			f13();
+			f14();
+			f15();
 			Console.WriteLine("ADD meg");
 			Console.ReadLine();
 		}
@@ -56,11 +61,11 @@ namespace _20241212
 		}
 		static void f2()
 		{
-			Console.WriteLine($"2. feladat: A magyar csapatban {adatok.Count} mezőnyjátékos szerepel");
+			Console.WriteLine($"2. feladat: A magyar csapatban {adatok.Count} mezőnyjátékos szerepelt");
 		}
 		static void f3()
 		{
-			List<string> beallok = new List<string>();
+			SortedSet<string> beallok = new SortedSet<string>();
 			foreach (var item in adatok)
 			{
 				if (item.poszt == "beálló")
@@ -68,7 +73,6 @@ namespace _20241212
 					beallok.Add(item.nev);
 				}
 			}
-			beallok.Sort();
 			Console.WriteLine("3. feladat: Beállók:");
 			foreach (var item in beallok)
 			{
@@ -86,14 +90,14 @@ namespace _20241212
 			Console.WriteLine("4. feladat: A játékosokat adó csapatok:");
 			foreach (var item in csapatok)
 			{
-				Console.WriteLine(item);
+				Console.WriteLine($"\t{item}");
 			}
 
 		}
 		static void f5()
 		{
-			
-			Console.WriteLine("\n5. feladat: Öt gólnál többet dobtak");
+
+			Console.WriteLine("\n5. feladat: Öt gólnál többet dobtak:");
 			SortedSet<string> dobasokszama = new SortedSet<string>();
 			foreach (var item in adatok)
 			{
@@ -104,7 +108,7 @@ namespace _20241212
 			}
 			foreach (var item in dobasokszama)
 			{
-					Console.WriteLine($"{item}");
+				Console.WriteLine($"\t{item}");
 			}
 		}
 		static void f6()
@@ -141,7 +145,7 @@ namespace _20241212
 					osszbuntetes += item.kiallitas;
 				}
 			}
-			Console.WriteLine($"8. feladat: {osszbuntetes*2} perc büntetést kapott a csapa");
+			Console.WriteLine($"8. feladat: {osszbuntetes * 2} perc büntetést kapott a csapa");
 		}
 		static void f9()
 		{
@@ -149,16 +153,88 @@ namespace _20241212
 			string miniev = "";
 			foreach (var item in adatok)
 			{
-
-				int osszenap = Convert.ToInt32(item.szulev.Split('.')[0]) * 365 + Convert.ToInt32(item.szulev.Split('.')[1]) *31 + Convert.ToInt32(item.szulev.Split('.')[2]);
-				Console.WriteLine(osszenap);
-				if (minikivalasztas > osszenap)
+				string[] szelet = item.szulev.Split('.');
+				int osszenap = Convert.ToInt32(szelet[0] + szelet[1] + szelet[2]);
+				if (minikivalasztas < osszenap)
 				{
 					minikivalasztas = osszenap;
 					miniev = item.nev;
 				}
 			}
 			Console.WriteLine($"9. feladat: A legfiatalabb játékos {miniev}.");
+		}
+		static void f10()
+		{
+			int szulettek1999ben = 0;
+			foreach (var item in adatok)
+			{
+				if (item.szulev.Split('.')[0] == "1999")
+				{
+					szulettek1999ben++;
+				}
+			}
+            Console.WriteLine($"10. feladat: 1999-ben {szulettek1999ben} játékos született.");
+		}
+		static void f11()
+		{
+			int osszmagassag = 0;
+			foreach (var item in adatok)
+			{
+				osszmagassag += item.magassag;
+			}
+            Console.WriteLine($"11. feladat: A csapat átlagmagassága: {osszmagassag/adatok.Count} cm.");
+		}
+		static void f12()
+		{
+			
+		double osszev = 0;
+		foreach (var item in adatok)
+		{
+				osszev += 2022-Convert.ToInt32(item.szulev.Split('.')[0]);
+
+			}
+			Console.WriteLine($"\n12. feladat: A csapat átlagéletkora: {Math.Round(osszev / adatok.Count, 2)} év.");
+
+		}
+		static void f13()
+		{
+			int balatonfuredjatekosszam = 0;
+			foreach (var item in adatok)
+			{
+				if (item.szulhely == "Balatonfüredi KSE")
+				{
+					balatonfuredjatekosszam++;
+				}
+			}
+            Console.WriteLine($"13. feladat: A Balatonfüredi KSE {balatonfuredjatekosszam} játékost adott a válogatottnak.");
+		}
+		static void f14()
+		{
+			foreach (var item in adatok)
+			{
+				if (item.nev == "Lékai Máté")
+				{
+                    Console.WriteLine($"14. feladat: Lékai Máté a {item.szulhely}-ben játszik.");
+					break;
+				}
+			}
+		}
+		static void f15()
+		{
+			bool nincs200 = true;
+			foreach (var item in adatok)
+			{
+				if (item.magassag == 200)
+				{
+					nincs200 = false;
+                    Console.WriteLine("15. feladat: Van olyan játékos, aki 200 cm magas.");
+					break;
+				}
+			}
+			if (nincs200)
+			{
+				Console.WriteLine("15. feladat: Nincs olyan játékos, aki 200 cm magas.");
+			}
 		}
 	}
 }
