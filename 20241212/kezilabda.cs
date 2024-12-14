@@ -31,6 +31,7 @@ namespace _20241212
 	class Program
 	{
 		static List<Kezilabda> adatok = new List<Kezilabda>();
+		static double atlagmagassag = 0;
 		static void Main(string[] args)
 		{
 			f1();
@@ -48,6 +49,7 @@ namespace _20241212
 			f13();
 			f14();
 			f15();
+			f16();
 			Console.WriteLine("ADD meg");
 			Console.ReadLine();
 		}
@@ -182,7 +184,8 @@ namespace _20241212
 			{
 				osszmagassag += item.magassag;
 			}
-            Console.WriteLine($"11. feladat: A csapat átlagmagassága: {osszmagassag/adatok.Count} cm.");
+			atlagmagassag = osszmagassag / adatok.Count;
+			Console.WriteLine($"11. feladat: A csapat átlagmagassága: {atlagmagassag} cm.");
 		}
 		static void f12()
 		{
@@ -234,6 +237,19 @@ namespace _20241212
 			if (nincs200)
 			{
 				Console.WriteLine("15. feladat: Nincs olyan játékos, aki 200 cm magas.");
+			}
+		}
+		static void f16()
+		{
+			string magasakfile = "magasak.txt";
+			using (FileStream fs = File.Create(magasakfile)) { }
+			foreach (var item in adatok)
+			{
+				if (item.magassag > atlagmagassag)
+				{
+					string ujsor = $"{item.nev} {item.magassag}";
+					File.AppendAllText(magasakfile, ujsor + Environment.NewLine);
+				}
 			}
 		}
 	}
