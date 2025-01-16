@@ -36,6 +36,9 @@ namespace _20250108
 			szakaszokSzama();
 			teljeshossz();
 			legrovidebbszakaszadatai();
+			hianyoselemek();
+			magasak();
+			fileiras();
 			Console.WriteLine("Enter");
 			Console.ReadLine();
 
@@ -52,7 +55,7 @@ namespace _20250108
 		}
 		static void szakaszokSzama()
 		{
-			Console.WriteLine(beolvas.Length-1);
+			Console.WriteLine($"3. feladat: Szakaszok száma: {szakaszok.Count}");
 		}
 		static void teljeshossz()
 		{
@@ -61,12 +64,13 @@ namespace _20250108
 			{
 				szakaszOsszeg += item.hossz;
 			}
-			Console.WriteLine(szakaszOsszeg);
+			Console.WriteLine($"4. feladat: A legrövidebb szakasz hossza: {szakaszOsszeg} km");
 		}
 		static void legrovidebbszakaszadatai()
 		{
-			string kezdet = "";
-			string veg = "";
+			Console.WriteLine("5. feladat: A Legrövidebb szakasz adatai: ");
+			string kezdet = szakaszok[0].kiindulNev;
+			string veg = szakaszok[0].vegpontNev;
 			double tavolsag = szakaszok[0].hossz;
 			foreach (var item in szakaszok)
 			{
@@ -77,10 +81,67 @@ namespace _20250108
 					veg = item.vegpontNev;
 				}
 			}
-			Console.WriteLine(kezdet);
-			Console.WriteLine(veg);
-			Console.WriteLine(tavolsag);
+			Console.WriteLine($"\tKezedete: {kezdet}");
+			Console.WriteLine($"\tVége: {veg}");
+			Console.WriteLine($"\tTávolság: {tavolsag} km");
 
+
+
+		}
+		static bool HianyosNev(string nev, string pecsetelohely)
+		{
+			return !nev.Contains("pecsetelohely") && pecsetelohely == "i";
+		}
+		static void hianyoselemek()
+		{
+			bool nincshianyos = true;
+			Console.WriteLine("7. feladat: Hiányos állomásnevek:");
+			foreach (var item in szakaszok)
+			{
+				if (HianyosNev(item.vegpontNev, item.pecsetelohely))
+				{
+					nincshianyos = false;
+					Console.WriteLine($"\t{item.vegpontNev}");
+				}
+			}
+			if (nincshianyos)
+			{
+				Console.WriteLine("\tNincs hiányos szakasz.");
+			}
+		}
+		static void magasak()
+		{
+			Dictionary<int, string> magassagok = new Dictionary<int, string>();
+			int aktualismagassag = tfm;
+			foreach (var item in szakaszok)
+			{
+				int szintkulonbseg = item.emelkedesOsszeg - item.lejtesOsszeg;
+				aktualismagassag += szintkulonbseg;
+				magassagok.Add(aktualismagassag, item.vegpontNev);
+			}
+			Console.WriteLine("8. feladat: A túra legmagasabban fekvő végpontja: ");
+			Console.WriteLine($"\tA végpont neve: {magassagok[magassagok.Keys.Max()]}");
+			Console.WriteLine($"\tA végpont tergerszint feletti magassága: {magassagok.Keys.Max()} m");
+		}
+		static void fileiras()
+		{
+			string kekturafile = "kektura2.csv";
+			using (FileStream fs = File.Create(kekturafile)) { }
+			File.AppendAllText(kekturafile, tfm + Environment.NewLine);
+			foreach (var item in szakaszok)
+			{
+				string vegpont;
+				if (HianyosNev(item.vegpontNev, item.pecsetelohely))
+				{
+					vegpont = item.vegpontNev + " pecsetelohely";
+				}
+				else
+				{
+					vegpont = item.vegpontNev;
+				}
+				string ujsor = $"{item.kiindulNev};{vegpont};{item.hossz};{item.emelkedesOsszeg};{item.lejtesOsszeg};{item.pecsetelohely}";
+				File.AppendAllText(kekturafile, ujsor + Environment.NewLine);
+			}
 
 		}
 	}
