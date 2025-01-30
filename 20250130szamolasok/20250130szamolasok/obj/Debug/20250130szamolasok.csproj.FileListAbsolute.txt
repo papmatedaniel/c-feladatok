@@ -1,0 +1,9 @@
+Z:\AsztaliAlkalmazasok\20250130szamolasok\20250130szamolasok\bin\Debug\20250130szamolasok.exe.config
+Z:\AsztaliAlkalmazasok\20250130szamolasok\20250130szamolasok\bin\Debug\20250130szamolasok.exe
+Z:\AsztaliAlkalmazasok\20250130szamolasok\20250130szamolasok\bin\Debug\20250130szamolasok.pdb
+Z:\AsztaliAlkalmazasok\20250130szamolasok\20250130szamolasok\obj\Debug\20250130szamolasok.csprojAssemblyReference.cache
+Z:\AsztaliAlkalmazasok\20250130szamolasok\20250130szamolasok\obj\Debug\_20250130szamolasok.Form1.resources
+Z:\AsztaliAlkalmazasok\20250130szamolasok\20250130szamolasok\obj\Debug\_20250130szamolasok.Properties.Resources.resources
+Z:\AsztaliAlkalmazasok\20250130szamolasok\20250130szamolasok\obj\Debug\20250130szamolasok.csproj.GenerateResource.cache
+Z:\AsztaliAlkalmazasok\20250130szamolasok\20250130szamolasok\obj\Debug\20250130szamolasok.exe
+Z:\AsztaliAlkalmazasok\20250130szamolasok\20250130szamolasok\obj\Debug\20250130szamolasok.pdb
