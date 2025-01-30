@@ -1,0 +1,9 @@
+Z:\AsztaliAlkalmazasok\20250130_Szamologep\20250130_Szamologep\bin\Debug\20250130_Szamologep.exe.config
+Z:\AsztaliAlkalmazasok\20250130_Szamologep\20250130_Szamologep\bin\Debug\20250130_Szamologep.exe
+Z:\AsztaliAlkalmazasok\20250130_Szamologep\20250130_Szamologep\bin\Debug\20250130_Szamologep.pdb
+Z:\AsztaliAlkalmazasok\20250130_Szamologep\20250130_Szamologep\obj\Debug\20250130_Szamologep.csprojAssemblyReference.cache
+Z:\AsztaliAlkalmazasok\20250130_Szamologep\20250130_Szamologep\obj\Debug\_20250130_Szamologep.Form1.resources
+Z:\AsztaliAlkalmazasok\20250130_Szamologep\20250130_Szamologep\obj\Debug\_20250130_Szamologep.Properties.Resources.resources
+Z:\AsztaliAlkalmazasok\20250130_Szamologep\20250130_Szamologep\obj\Debug\20250130_Szamologep.csproj.GenerateResource.cache
+Z:\AsztaliAlkalmazasok\20250130_Szamologep\20250130_Szamologep\obj\Debug\20250130_Szamologep.exe
+Z:\AsztaliAlkalmazasok\20250130_Szamologep\20250130_Szamologep\obj\Debug\20250130_Szamologep.pdb
