@@ -36,6 +36,10 @@
 			this.listBox1 = new System.Windows.Forms.ListBox();
 			this.btnElemTorlese = new System.Windows.Forms.Button();
 			this.btnOsszestorles = new System.Windows.Forms.Button();
+			this.radioButtonEtel = new System.Windows.Forms.RadioButton();
+			this.radioButtonEgyebb = new System.Windows.Forms.RadioButton();
+			this.listBox2 = new System.Windows.Forms.ListBox();
+			this.btnSzures = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// txtTermek
@@ -56,7 +60,7 @@
 			// 
 			// btnHozzaad
 			// 
-			this.btnHozzaad.Location = new System.Drawing.Point(258, 232);
+			this.btnHozzaad.Location = new System.Drawing.Point(381, 88);
 			this.btnHozzaad.Name = "btnHozzaad";
 			this.btnHozzaad.Size = new System.Drawing.Size(75, 23);
 			this.btnHozzaad.TabIndex = 2;
@@ -93,7 +97,7 @@
 			// 
 			// btnElemTorlese
 			// 
-			this.btnElemTorlese.Location = new System.Drawing.Point(645, 73);
+			this.btnElemTorlese.Location = new System.Drawing.Point(655, 64);
 			this.btnElemTorlese.Name = "btnElemTorlese";
 			this.btnElemTorlese.Size = new System.Drawing.Size(75, 23);
 			this.btnElemTorlese.TabIndex = 6;
@@ -103,7 +107,7 @@
 			// 
 			// btnOsszestorles
 			// 
-			this.btnOsszestorles.Location = new System.Drawing.Point(502, 258);
+			this.btnOsszestorles.Location = new System.Drawing.Point(598, 12);
 			this.btnOsszestorles.Name = "btnOsszestorles";
 			this.btnOsszestorles.Size = new System.Drawing.Size(132, 23);
 			this.btnOsszestorles.TabIndex = 7;
@@ -111,11 +115,55 @@
 			this.btnOsszestorles.UseVisualStyleBackColor = true;
 			this.btnOsszestorles.Click += new System.EventHandler(this.btnOsszestorles_Click);
 			// 
+			// radioButtonEtel
+			// 
+			this.radioButtonEtel.AutoSize = true;
+			this.radioButtonEtel.Location = new System.Drawing.Point(655, 329);
+			this.radioButtonEtel.Name = "radioButtonEtel";
+			this.radioButtonEtel.Size = new System.Drawing.Size(43, 17);
+			this.radioButtonEtel.TabIndex = 8;
+			this.radioButtonEtel.TabStop = true;
+			this.radioButtonEtel.Text = "Étel";
+			this.radioButtonEtel.UseVisualStyleBackColor = true;
+			// 
+			// radioButtonEgyebb
+			// 
+			this.radioButtonEgyebb.AutoSize = true;
+			this.radioButtonEgyebb.Location = new System.Drawing.Point(655, 363);
+			this.radioButtonEgyebb.Name = "radioButtonEgyebb";
+			this.radioButtonEgyebb.Size = new System.Drawing.Size(61, 17);
+			this.radioButtonEgyebb.TabIndex = 9;
+			this.radioButtonEgyebb.TabStop = true;
+			this.radioButtonEgyebb.Text = "Egyébb";
+			this.radioButtonEgyebb.UseVisualStyleBackColor = true;
+			// 
+			// listBox2
+			// 
+			this.listBox2.FormattingEnabled = true;
+			this.listBox2.Location = new System.Drawing.Point(484, 319);
+			this.listBox2.Name = "listBox2";
+			this.listBox2.Size = new System.Drawing.Size(120, 95);
+			this.listBox2.TabIndex = 10;
+			// 
+			// btnSzures
+			// 
+			this.btnSzures.Location = new System.Drawing.Point(655, 409);
+			this.btnSzures.Name = "btnSzures";
+			this.btnSzures.Size = new System.Drawing.Size(75, 23);
+			this.btnSzures.TabIndex = 11;
+			this.btnSzures.Text = "Szűrés";
+			this.btnSzures.UseVisualStyleBackColor = true;
+			this.btnSzures.Click += new System.EventHandler(this.btnSzures_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.btnSzures);
+			this.Controls.Add(this.listBox2);
+			this.Controls.Add(this.radioButtonEgyebb);
+			this.Controls.Add(this.radioButtonEtel);
 			this.Controls.Add(this.btnOsszestorles);
 			this.Controls.Add(this.btnElemTorlese);
 			this.Controls.Add(this.listBox1);
@@ -142,6 +190,10 @@
 		private System.Windows.Forms.ListBox listBox1;
 		private System.Windows.Forms.Button btnElemTorlese;
 		private System.Windows.Forms.Button btnOsszestorles;
+		private System.Windows.Forms.RadioButton radioButtonEtel;
+		private System.Windows.Forms.RadioButton radioButtonEgyebb;
+		private System.Windows.Forms.ListBox listBox2;
+		private System.Windows.Forms.Button btnSzures;
 	}
 }
 
