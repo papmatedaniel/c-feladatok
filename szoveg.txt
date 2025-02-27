@@ -1,0 +1,22 @@
+Fejléc:
+
+Műveletek legördülő gomb:
+	 Szélsőérték:
+		- min
+		- max
+	Számok átlaga
+	Számok összege
+	Párosak összege
+Kilépés
+
+Gombok:
+	Kilépés gomb
+
+1. 
+Számok hozzáadása
+Vagy random szám generálása
+Számok 1 és 99 közötti egész szám
+miniumum 1, maximum 20 szám
+Textboxba nyomtatódjanak ki a számok, soronként 1 szám
+2. Törlés gomb
+3. Műveletek
