@@ -1,0 +1,9 @@
+Z:\AsztaliAlkalmazasok\20240227CsuszkaNegyzet\20240227CsuszkaNegyzet\bin\Debug\20240227CsuszkaNegyzet.exe.config
+Z:\AsztaliAlkalmazasok\20240227CsuszkaNegyzet\20240227CsuszkaNegyzet\bin\Debug\20240227CsuszkaNegyzet.exe
+Z:\AsztaliAlkalmazasok\20240227CsuszkaNegyzet\20240227CsuszkaNegyzet\bin\Debug\20240227CsuszkaNegyzet.pdb
+Z:\AsztaliAlkalmazasok\20240227CsuszkaNegyzet\20240227CsuszkaNegyzet\obj\Debug\20240227CsuszkaNegyzet.csprojAssemblyReference.cache
+Z:\AsztaliAlkalmazasok\20240227CsuszkaNegyzet\20240227CsuszkaNegyzet\obj\Debug\_20240227CsuszkaNegyzet.Form1.resources
+Z:\AsztaliAlkalmazasok\20240227CsuszkaNegyzet\20240227CsuszkaNegyzet\obj\Debug\_20240227CsuszkaNegyzet.Properties.Resources.resources
+Z:\AsztaliAlkalmazasok\20240227CsuszkaNegyzet\20240227CsuszkaNegyzet\obj\Debug\20240227CsuszkaNegyzet.csproj.GenerateResource.cache
+Z:\AsztaliAlkalmazasok\20240227CsuszkaNegyzet\20240227CsuszkaNegyzet\obj\Debug\20240227CsuszkaNegyzet.exe
+Z:\AsztaliAlkalmazasok\20240227CsuszkaNegyzet\20240227CsuszkaNegyzet\obj\Debug\20240227CsuszkaNegyzet.pdb
