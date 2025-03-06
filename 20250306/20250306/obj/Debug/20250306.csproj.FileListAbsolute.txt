@@ -1,0 +1,9 @@
+Z:\AsztaliAlkalmazasok\20250306\20250306\bin\Debug\20250306.exe.config
+Z:\AsztaliAlkalmazasok\20250306\20250306\bin\Debug\20250306.exe
+Z:\AsztaliAlkalmazasok\20250306\20250306\bin\Debug\20250306.pdb
+Z:\AsztaliAlkalmazasok\20250306\20250306\obj\Debug\20250306.csprojAssemblyReference.cache
+Z:\AsztaliAlkalmazasok\20250306\20250306\obj\Debug\_20250306.Form1.resources
+Z:\AsztaliAlkalmazasok\20250306\20250306\obj\Debug\_20250306.Properties.Resources.resources
+Z:\AsztaliAlkalmazasok\20250306\20250306\obj\Debug\20250306.csproj.GenerateResource.cache
+Z:\AsztaliAlkalmazasok\20250306\20250306\obj\Debug\20250306.exe
+Z:\AsztaliAlkalmazasok\20250306\20250306\obj\Debug\20250306.pdb
