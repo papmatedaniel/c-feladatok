@@ -1,0 +1,11 @@
+Minden emojit beleteszünk egy listába, pozícókkal.
+alapoziciok = []
+Ha jobbra forgatunk:
+	- minden kép indexét megnöveljük egyel, az utolsó elem indexét beszúrjuk az első helyre
+	List<string> ujpoziciok = new List<string>("", "", "", "");
+	for (i = 0; i < indexek.lenght; i++)
+		ujpoziciok[i+1] = alapoziciok[i]
+	ujpoziciok[0] = alapoziciok[alapoziciok.Length]
+	alapoziciok = ujpoziciok
+Ha balra forgatjuk:
+	- minden kép indexét csökkentjük egyel, az utolsó első elem indexét beszúrjuk az utolsó helyre.
