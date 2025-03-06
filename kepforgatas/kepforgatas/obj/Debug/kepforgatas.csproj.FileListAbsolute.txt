@@ -1,0 +1,9 @@
+Z:\AsztaliAlkalmazasok\kepforgatas\kepforgatas\bin\Debug\kepforgatas.exe.config
+Z:\AsztaliAlkalmazasok\kepforgatas\kepforgatas\bin\Debug\kepforgatas.exe
+Z:\AsztaliAlkalmazasok\kepforgatas\kepforgatas\bin\Debug\kepforgatas.pdb
+Z:\AsztaliAlkalmazasok\kepforgatas\kepforgatas\obj\Debug\kepforgatas.csprojAssemblyReference.cache
+Z:\AsztaliAlkalmazasok\kepforgatas\kepforgatas\obj\Debug\kepforgatas.Form1.resources
+Z:\AsztaliAlkalmazasok\kepforgatas\kepforgatas\obj\Debug\kepforgatas.Properties.Resources.resources
+Z:\AsztaliAlkalmazasok\kepforgatas\kepforgatas\obj\Debug\kepforgatas.csproj.GenerateResource.cache
+Z:\AsztaliAlkalmazasok\kepforgatas\kepforgatas\obj\Debug\kepforgatas.exe
+Z:\AsztaliAlkalmazasok\kepforgatas\kepforgatas\obj\Debug\kepforgatas.pdb
