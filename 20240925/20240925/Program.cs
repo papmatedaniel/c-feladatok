@@ -60,7 +60,7 @@ namespace _20240925
 			//f1();
 			//f2();
 			//f3();
-			/ f5();
+			// f5();
 			Console.Write("Nyomj entert");
 			Console.ReadLine();
 		}

@@ -14,7 +14,7 @@ namespace _20241106
         static void Main(string[] args)
         {
             
-             kozmondasok = File.ReadAllLines("kozmondasok.txt",
+            kozmondasok = File.ReadAllLines("kozmondasok.txt",
                 Encoding.Default);
 
             List<string> km = new List<string>();

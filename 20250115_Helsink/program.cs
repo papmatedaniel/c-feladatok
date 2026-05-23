@@ -67,7 +67,7 @@ namespace _20250116
 			}
 			foreach (var item in statisztika)
 			{
-					statok[item.Key] += item.Value;
+				statok[item.Key] += item.Value;
 			}
             Console.WriteLine($"Arany: {statok[1]}");
 			Console.WriteLine($"Ezüst: {statok[2]}");

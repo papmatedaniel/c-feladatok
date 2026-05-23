@@ -99,7 +99,7 @@ namespace _20241024
             {
                if (szo[i]!=tabu)
                {
-Console.Write($"{szo[i]}");
+                Console.Write($"{szo[i]}");
                }
                 
             }
