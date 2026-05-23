@@ -1,0 +1,9 @@
+Z:\AsztaliAlkalmazasok\20250313kodfeltoro\20250313kodfeltoro\bin\Debug\20250313kodfeltoro.exe.config
+Z:\AsztaliAlkalmazasok\20250313kodfeltoro\20250313kodfeltoro\bin\Debug\20250313kodfeltoro.exe
+Z:\AsztaliAlkalmazasok\20250313kodfeltoro\20250313kodfeltoro\bin\Debug\20250313kodfeltoro.pdb
+Z:\AsztaliAlkalmazasok\20250313kodfeltoro\20250313kodfeltoro\obj\Debug\20250313kodfeltoro.csprojAssemblyReference.cache
+Z:\AsztaliAlkalmazasok\20250313kodfeltoro\20250313kodfeltoro\obj\Debug\_20250313kodfeltoro.Form1.resources
+Z:\AsztaliAlkalmazasok\20250313kodfeltoro\20250313kodfeltoro\obj\Debug\_20250313kodfeltoro.Properties.Resources.resources
+Z:\AsztaliAlkalmazasok\20250313kodfeltoro\20250313kodfeltoro\obj\Debug\20250313kodfeltoro.csproj.GenerateResource.cache
+Z:\AsztaliAlkalmazasok\20250313kodfeltoro\20250313kodfeltoro\obj\Debug\20250313kodfeltoro.exe
+Z:\AsztaliAlkalmazasok\20250313kodfeltoro\20250313kodfeltoro\obj\Debug\20250313kodfeltoro.pdb

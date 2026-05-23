@@ -1,0 +1,6 @@
+Z:\AsztaliAlkalmazasok\20240925\20240925\obj\Debug\20240925.csprojAssemblyReference.cache
+Z:\AsztaliAlkalmazasok\20240925\20240925\bin\Debug\20240925.exe.config
+Z:\AsztaliAlkalmazasok\20240925\20240925\bin\Debug\20240925.exe
+Z:\AsztaliAlkalmazasok\20240925\20240925\bin\Debug\20240925.pdb
+Z:\AsztaliAlkalmazasok\20240925\20240925\obj\Debug\20240925.exe
+Z:\AsztaliAlkalmazasok\20240925\20240925\obj\Debug\20240925.pdb

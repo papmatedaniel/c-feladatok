@@ -1,0 +1,9 @@
+Z:\AsztaliAlkalmazasok\Naptár\Naptár\bin\Debug\Naptár.exe.config
+Z:\AsztaliAlkalmazasok\Naptár\Naptár\bin\Debug\Naptár.exe
+Z:\AsztaliAlkalmazasok\Naptár\Naptár\bin\Debug\Naptár.pdb
+Z:\AsztaliAlkalmazasok\Naptár\Naptár\obj\Debug\Naptár.csprojAssemblyReference.cache
+Z:\AsztaliAlkalmazasok\Naptár\Naptár\obj\Debug\Naptár.Form1.resources
+Z:\AsztaliAlkalmazasok\Naptár\Naptár\obj\Debug\Naptár.Properties.Resources.resources
+Z:\AsztaliAlkalmazasok\Naptár\Naptár\obj\Debug\Naptár.csproj.GenerateResource.cache
+Z:\AsztaliAlkalmazasok\Naptár\Naptár\obj\Debug\Naptár.exe
+Z:\AsztaliAlkalmazasok\Naptár\Naptár\obj\Debug\Naptár.pdb

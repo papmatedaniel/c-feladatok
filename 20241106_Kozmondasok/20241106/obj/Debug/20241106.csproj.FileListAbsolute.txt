@@ -1,0 +1,6 @@
+Z:\Asztali alk\20241106\20241106\bin\Debug\20241106.exe.config
+Z:\Asztali alk\20241106\20241106\bin\Debug\20241106.exe
+Z:\Asztali alk\20241106\20241106\bin\Debug\20241106.pdb
+Z:\Asztali alk\20241106\20241106\obj\Debug\20241106.csprojAssemblyReference.cache
+Z:\Asztali alk\20241106\20241106\obj\Debug\20241106.exe
+Z:\Asztali alk\20241106\20241106\obj\Debug\20241106.pdb

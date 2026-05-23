@@ -1,0 +1,6 @@
+C:\Users\pap.mate\source\repos\20241002\20241002\bin\Debug\20241002.exe.config
+C:\Users\pap.mate\source\repos\20241002\20241002\bin\Debug\20241002.exe
+C:\Users\pap.mate\source\repos\20241002\20241002\bin\Debug\20241002.pdb
+C:\Users\pap.mate\source\repos\20241002\20241002\obj\Debug\20241002.csprojAssemblyReference.cache
+C:\Users\pap.mate\source\repos\20241002\20241002\obj\Debug\20241002.exe
+C:\Users\pap.mate\source\repos\20241002\20241002\obj\Debug\20241002.pdb
