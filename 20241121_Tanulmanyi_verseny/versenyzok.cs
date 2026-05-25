@@ -32,7 +32,7 @@ class Program
 		f3();
 		f4();
 		f5();
-		//f6();
+		f6();
 		f6_2Megoldas();
 		f7();
 		f8();
@@ -54,15 +54,25 @@ class Program
 	}
 	static void f1()
 	{
-		string[] beolvas = File.ReadAllLines("eredmenyek.txt", Encoding.Default);
+		// Windows vagy Linux?
+		bool isWindows = Path.DirectorySeparatorChar == '\\';
+
+		// Windows → 1250, Linux → UTF-8
+		Encoding encoding = isWindows
+			? Encoding.GetEncoding(1250)
+			: Encoding.UTF8;
+
+		string[] beolvas = File.ReadAllLines("eredmenyek.txt", encoding);
+
 		foreach (var item in beolvas)
 		{
 			versenyzok.Add(new Versenyzo(item));
 		}
 	}
+
 	static void f2()
 	{
-		Console.WriteLine($"2. Feladat: {versenyzok.Count}");
+		Console.WriteLine($"\n2. Feladat: {versenyzok.Count}");
 	}
 	static void f3()
 	{
@@ -79,10 +89,10 @@ class Program
 				versenyekstatisztika[item.szakmacsoport] = 1;
 			}
 		}
-		Console.WriteLine("3 Feladat: Szakmacsoportok és tanulóik száma");
+		Console.WriteLine("\n3 Feladat: Szakmacsoportok és tanulóik száma");
 		foreach (var item in versenyekstatisztika)
 		{
-			Console.WriteLine($" {item.Key} : {item.Value}");
+			Console.WriteLine($"{item.Key} - {item.Value}");
 		}
 	}
 	static void f4()
@@ -106,7 +116,7 @@ class Program
 	}
 	static void f5()
 	{
-		Console.WriteLine("5. Feladat: Ábrahám keresztnevű diákok adatai");
+		Console.WriteLine("\n5. Feladat: Ábrahám keresztnevű diákok adatai");
 		foreach (var item in versenyzok)
 		{
 			if (item.neve.Split()[1] == "Ábrahám")
@@ -115,71 +125,65 @@ class Program
 			}
 		}
 	}
-	static int maximumkivalasztas(List<Object> lista)
+	static int minimumkivalasztas(List<Object> lista)
 	{
-		int maxi = 0;
+		int mini = Convert.ToInt32(lista[0]);
 		foreach (var item in lista)
 		{
-			if (Convert.ToInt32(item) > maxi)
+			if (Convert.ToInt32(item) < mini)
 			{
-				maxi = Convert.ToInt32(item);
+				mini = Convert.ToInt32(item);
 			}
 		}
-		return maxi;
+		return mini;
 	}
 	static void f6()
 	{
-		Console.WriteLine("6. Feladat");
+		Console.WriteLine("\n6. Feladat");
 		Dictionary<string, List<Object>> dobogosok = new Dictionary<string, List<object>>();
-		List<string> szakmak = new List<string> { "gépész", "informatika", "környezetvédelem" };
-		foreach (var szakma in szakmak)
+		foreach (var item in versenyzok)
 		{ 
-			string szakmanevek = szakma + "nevek";
-			string szakmajegyek = szakma + "jegyek";
-			dobogosok.Add(szakmanevek, new List<object>());
-			dobogosok.Add(szakmajegyek, new List<object>());
-			foreach (var item in versenyzok)
+			string szakmanevek = item.szakmacsoport.ToString() + "nevek";
+			string szakmajegyek = item.szakmacsoport.ToString() + "jegyek";
+			if (!dobogosok.ContainsKey(szakmanevek))
 			{
-				if (item.szakmacsoport == szakma)
-				{
-					dobogosok[szakmanevek].Add(item.neve);
-					dobogosok[szakmajegyek].Add(item.helyezes);
-				}
-
+				dobogosok.Add(szakmanevek, new List<object>());
+				dobogosok.Add(szakmajegyek, new List<object>());
 			}
-
-			int szakmajegyekmaxi = dobogosok[szakmajegyek].IndexOf(maximumkivalasztas(dobogosok[szakmajegyek]));
-			dobogosok[szakmajegyek].Remove(dobogosok[szakmajegyek][szakmajegyekmaxi]);
-			dobogosok[szakmanevek].Remove(dobogosok[szakmanevek][szakmajegyekmaxi]);
-
+			dobogosok[szakmanevek].Add(item.neve);
+			dobogosok[szakmajegyek].Add(item.helyezes);
 		}
-		
-		int gépészjegydobogos = dobogosok["gépészjegyek"].IndexOf(maximumkivalasztas(dobogosok["gépészjegyek"]));
-		int informatikajegydobogos = dobogosok["informatikajegyek"].IndexOf(maximumkivalasztas(dobogosok["informatikajegyek"]));
-		int környezetvédelemjegydobogos = dobogosok["környezetvédelemjegyek"].IndexOf(maximumkivalasztas(dobogosok["környezetvédelemjegyek"]));
-
-		Console.WriteLine($"A gépészek között a dobogós: {dobogosok["gépésznevek"][gépészjegydobogos]}");
-		Console.WriteLine($"Az informatikusok között a dobogós: {dobogosok["informatikanevek"][informatikajegydobogos]}");
-		Console.WriteLine($"A környezetvédők között a dobogós: {dobogosok["környezetvédelemnevek"][környezetvédelemjegydobogos]}");
-
+		foreach (var item in  new List<string> { "gépész", "informatika", "környezetvédelem" })
+		{
+			Console.WriteLine(item);
+			for (int i = 0; i < 3; i++)
+			{
+				int szakmajegyekmaxi = dobogosok[item + "jegyek"].IndexOf(minimumkivalasztas(dobogosok[item + "jegyek"]));
+				Console.WriteLine($"\t{i+1} {dobogosok[item + "nevek"][dobogosok[item + "jegyek"].IndexOf(minimumkivalasztas(dobogosok[item + "jegyek"]))]}");
+				dobogosok[item + "jegyek"].Remove(dobogosok[item + "jegyek"][szakmajegyekmaxi]);
+				dobogosok[item + "nevek"].Remove(dobogosok[item + "nevek"][szakmajegyekmaxi]);
+			}
+		}
 	}
 	static void f6_2Megoldas()
 	{
-        Console.WriteLine("6. Feladat. A szakmacsoportok dobogósai. ");
-		Dictionary<string, List<Tuple<string, int>>> dobogosok2 = new Dictionary<string, List<Tuple<string, int>>>();
+        Console.WriteLine("\n6. Feladat. A szakmacsoportok dobogósai. ");
+		Dictionary<string, SortedList<int, string>> dobogosok2 = new Dictionary<string, SortedList<int, string>>();
 		List<string> szakmak = new List<string> { "gépész", "informatika", "környezetvédelem" };
 		foreach (var szakma in szakmak)
 		{
-			dobogosok2.Add(szakma, new List<Tuple<string, int>>());
+			dobogosok2[szakma] = new SortedList<int, string>();
 			foreach (var item in versenyzok)
 			{
 				if (item.szakmacsoport == szakma) 
 				{ 
-					dobogosok2[szakma].Add(new Tuple<string, int>(item.neve, item.helyezes)); 
+					dobogosok2[szakma].Add(item.helyezes, item.neve);
 				}
 			}
-			dobogosok2[szakma].Sort((a, b) => a.Item2.CompareTo(b.Item2));
-            Console.WriteLine($"{szakma}: {(dobogosok2[szakma][dobogosok2[szakma].Count - 2]).Item1}");
+			Console.WriteLine($"{szakma}:");
+			Console.WriteLine($"\t{dobogosok2[szakma].Values[0]}");
+			Console.WriteLine($"\t{dobogosok2[szakma].Values[1]}");
+			Console.WriteLine($"\t{dobogosok2[szakma].Values[2]}");
 		}
 	}
 	static void f7()
@@ -192,11 +196,11 @@ class Program
 				egerversenyzok++;
 			}
 		}
-		Console.WriteLine($"7. Feladat: {egerversenyzok}");
+		Console.WriteLine($"\n7. Feladat: Ennyi versenyző volt egerben: {egerversenyzok}");
 	}
 	static void f8()
 	{
-        Console.WriteLine("8. Feladat. Budapesti szakok");
+        Console.WriteLine("\n8. Feladat. Budapesti szakok");
 		Dictionary<string, int> budapestiversenyzok = new Dictionary<string, int>();
 		foreach (var item in versenyzok)
 		{
@@ -236,38 +240,38 @@ class Program
 		}
 		if (bp > videk)
 		{
-            Console.WriteLine("9. Feladat: Budapesten több versenyző volt");
+            Console.WriteLine("\n9. Feladat: Budapesten több versenyző volt");
 		}
 		else
 		{
-			Console.WriteLine("9. Feladat: Vidéken több versenyző volt");
+			Console.WriteLine("\n9. Feladat: Vidéken több versenyző volt");
 		}
 	}
 	static void f10()
 	{
-		int bpTop = 0, kaposvarTop = 0;
+		int bpTop = 10000, kaposvarTop = 10000;
 		string bpNev = "", kaposvarNev = "";
 		foreach (var item in versenyzok)
 		{
 			if (item.iskola == "Eötvös")
 			{
-				if (item.telepules == "Budapest" && bpTop < item.helyezes)
+				if (item.telepules == "Budapest" && bpTop > item.helyezes)
 				{
-					bpTop++;
+					bpTop = item.helyezes;
 					bpNev = item.neve;
 				}
-				if (item.telepules == "Kaposvár" && kaposvarTop < item.helyezes)
+				if (item.telepules == "Kaposvár" && kaposvarTop > item.helyezes)
 				{
-					kaposvarTop++;
+					kaposvarTop = item.helyezes;
 					kaposvarNev = item.neve;
 				}
 			}
 		}
-        Console.WriteLine($"10. Feladat. Kaposvári Eötvös legjobbja: {kaposvarNev}, Budapest legjobbja: {bpNev}");
+        Console.WriteLine($"\n10. Feladat.\nKaposvári Eötvös legjobbja: {kaposvarNev}\n Budapest legjobbja: {bpNev}");
 	}
 	static void f11()
 	{
-        Console.WriteLine("11. Feladat: Báthyak adatai: ");
+        Console.WriteLine("\n11. Feladat: Báthyak adatai: ");
 		foreach (var item in versenyzok)
 		{
 			if (item.iskola == "Bláthy")
@@ -278,7 +282,7 @@ class Program
 	}
 	static void f12()
 	{
-        Console.WriteLine("12. Feladat. Váci szakversenyzők");
+        Console.WriteLine("\n12. Feladat. Váci szakversenyzők");
 		HashSet<string> VáciSzakmak = new HashSet<string>();
 		foreach (var item in versenyzok)
 		{
@@ -324,11 +328,11 @@ class Program
 	}
 	static void f14()
 	{
-        Console.WriteLine("\n14. Feladat");
+        Console.WriteLine("\n\n14. Feladat");
 		int bpetövös = 0;
 		foreach (var item in versenyzok)
 		{
-			if (item.iskola == "Eötvös" && item.telepules == "Budapest")
+			if (item.iskola == "Eötvös" && item.telepules == "Budapest" && item.szakmacsoport == "környezetvédelem")
 			{
 				bpetövös++;
 			}
@@ -337,7 +341,7 @@ class Program
 	}
 	static void f15()
 	{
-        Console.WriteLine("15. Feladat");
+        Console.WriteLine("\n15. Feladat");
 		foreach (var item in versenyzok)
 		{
 			if (item.telepules == "Dombóvár" || item.telepules == "Püspökladány")
@@ -348,7 +352,7 @@ class Program
 	}
 	static void f16()
 	{
-        Console.WriteLine("16 Feladat: ");
+        Console.WriteLine("\n16 Feladat: ");
 		string ganziskola = "";
 		int tanszama = 0;
 		foreach (var item in versenyzok)
@@ -363,9 +367,10 @@ class Program
 	}
 	static void f17()
 	{
-        Console.WriteLine("17. Feladat");
+        Console.WriteLine("\n17. Feladat");
 		string legjobbiskola = "";
 		string legjobbszakma = "";
+		string legjobbnev = "";
 		int legjobbszazalek = 0;
 		foreach (var item in versenyzok)
 		{
@@ -374,16 +379,18 @@ class Program
 				legjobbszazalek = item.eredmeny;
 				legjobbszakma = item.szakmacsoport;
 				legjobbiskola = item.iskola;
+				legjobbnev = item.neve;
 			}
 		}
-        Console.WriteLine(legjobbiskola);
+		Console.WriteLine(legjobbnev);
 		Console.WriteLine(legjobbszakma);
+        Console.WriteLine(legjobbiskola);
 		Console.WriteLine(legjobbszazalek);
 
 	}
 	static void f18()
 	{
-        Console.WriteLine("18. Feladat.");
+        Console.WriteLine("\n18. Feladat.");
 		int molnar = 0;
 		int nagy = 0;
 		foreach (var item in versenyzok)
@@ -408,7 +415,7 @@ class Program
 	}
 	static void f19()
 	{
-        Console.WriteLine("19. Feladat.");
+        Console.WriteLine("\n19. Feladat.");
 		HashSet<string> iskolakszama = new HashSet<string>();
 		foreach (var item in versenyzok)
 		{
@@ -418,7 +425,7 @@ class Program
 	}
 	static void f20()
 	{
-        Console.WriteLine("20. Feladat");
+        Console.WriteLine("\n20. Feladat");
 		Dictionary<string, int> iskolakversenyzoi = new Dictionary<string, int>();
 		foreach (var item in versenyzok)
 		{

@@ -1,0 +1,14 @@
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/bin/Debug/net8.0/Kezilabda
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/bin/Debug/net8.0/Kezilabda.deps.json
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/bin/Debug/net8.0/Kezilabda.runtimeconfig.json
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/bin/Debug/net8.0/Kezilabda.dll
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/bin/Debug/net8.0/Kezilabda.pdb
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/obj/Debug/net8.0/Kezilabda.GeneratedMSBuildEditorConfig.editorconfig
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/obj/Debug/net8.0/Kezilabda.AssemblyInfoInputs.cache
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/obj/Debug/net8.0/Kezilabda.AssemblyInfo.cs
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/obj/Debug/net8.0/Kezilabda.csproj.CoreCompileInputs.cache
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/obj/Debug/net8.0/Kezilabda.dll
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/obj/Debug/net8.0/refint/Kezilabda.dll
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/obj/Debug/net8.0/Kezilabda.pdb
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/obj/Debug/net8.0/Kezilabda.genruntimeconfig.cache
+/home/mate/Asztal/c#gyak/Kezilabda/Kezilabda/obj/Debug/net8.0/ref/Kezilabda.dll

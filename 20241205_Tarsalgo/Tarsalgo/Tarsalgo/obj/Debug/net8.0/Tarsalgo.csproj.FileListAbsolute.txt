@@ -1,0 +1,14 @@
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/bin/Debug/net8.0/Tarsalgo
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/bin/Debug/net8.0/Tarsalgo.deps.json
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/bin/Debug/net8.0/Tarsalgo.runtimeconfig.json
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/bin/Debug/net8.0/Tarsalgo.dll
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/bin/Debug/net8.0/Tarsalgo.pdb
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/obj/Debug/net8.0/Tarsalgo.GeneratedMSBuildEditorConfig.editorconfig
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/obj/Debug/net8.0/Tarsalgo.AssemblyInfoInputs.cache
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/obj/Debug/net8.0/Tarsalgo.AssemblyInfo.cs
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/obj/Debug/net8.0/Tarsalgo.csproj.CoreCompileInputs.cache
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/obj/Debug/net8.0/Tarsalgo.dll
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/obj/Debug/net8.0/refint/Tarsalgo.dll
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/obj/Debug/net8.0/Tarsalgo.pdb
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/obj/Debug/net8.0/Tarsalgo.genruntimeconfig.cache
+/home/mate/Asztal/c#gyak/Tarsalgo/Tarsalgo/obj/Debug/net8.0/ref/Tarsalgo.dll

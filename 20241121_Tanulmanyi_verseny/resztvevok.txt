@@ -1,0 +1,68 @@
+Szent László ÁMK	Baja	2
+Gépészeti és Számítástechnikai Szki	Békéscsaba	7
+Bláthy	Budapest	3
+Bolyai	Budapest	8
+Eötvös	Budapest	18
+Fodor	Budapest	3
+Neumann	Budapest	15
+Pataky	Budapest	3
+Petrik	Budapest	5
+Puskás	Budapest	3
+Semmelweis	Budapest	2
+Szily	Budapest	3
+Than	Budapest	3
+Trefort	Budapest	2
+Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest	18
+Verebély	Budapest	5
+Bem	Cegléd	1
+Batsányi	Csongrád	3
+Mechwart	Debrecen	17
+Povolny Szakképző	Debrecen	2
+Apáczai	Dombóvár	1
+Bornemissza	Eger	1
+Neumann	Eger	16
+Wigner	Eger	3
+Petőfi	Fehérgyarmat	4
+Jedlik	Győr	7
+Mechatronikai és Gépészeti Szakképző	Győr	1
+Kőrösi	Hajdúnánás	4
+Gregus	Hódmezővásárhely	5
+Eötvös	Kaposvár	6
+Irinyi	Kazincbarcika	7
+Műszaki Szakképző	Kecskemét	2
+Asbóth Sándor Szakképző	Keszthely	4
+Wattay Középiskola	Kiskörös	8
+Szent Benedek Gimnázium	Kiskunfélegyháza	26
+Móricz	Kisújszállás	5
+Széchenyi	Komárom	5
+Mezőgazdasági Szakképző	Makó	3
+Kós	Miskolc	1
+Andrássy	Miskolc	9
+Bláthy	Miskolc	2
+Kandó	Miskolc	4
+Műszaki Szakképző	Nagykanizsa	11
+Széchenyi	Nyíregyháza	6
+Bánki	Nyíregyháza	5
+Vásárhelyi	Nyíregyháza	24
+Hamvas Szakképző	Oroszlány	2
+Energetikai Szki	Paks	3
+Simonyi	Pécs	2
+Zipernowsky	Pécs	9
+Karacs Ferenc Gimnázium	Püspökladány	1
+Stromfeld	Salgótarján	6
+Széchenyi	Százhalombatta	2
+Gábor Dénes Szki	Szeged	1
+Móravárosi Ipari Szakképző	Szeged	8
+Szigeti Endre Szakképző	Szeghalom	2
+Belvárosi I. István Középiskola	Székesfehérvár	3
+Széchenyi	Székesfehérvár	9
+Műszaki Szki	Szolnok	25
+Horváth Boldizsár Szki	Szombathely	3
+Műszaki Szakképző	Szombathely	15
+Széchenyi István Szakképző	Tapolca	2
+Integrált Szi	Tatabánya	14
+Tokaji Ferenc Gimnázium	Tokaj	4
+Boronkay	Vác	8
+Ipari Szki	Veszprém	8
+Csány Szki	Zalaegerszeg	5
+Ganz	Zalaegerszeg	6

@@ -1,0 +1,14 @@
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/bin/Debug/net8.0/Szineszek
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/bin/Debug/net8.0/Szineszek.deps.json
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/bin/Debug/net8.0/Szineszek.runtimeconfig.json
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/bin/Debug/net8.0/Szineszek.dll
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/bin/Debug/net8.0/Szineszek.pdb
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/obj/Debug/net8.0/Szineszek.GeneratedMSBuildEditorConfig.editorconfig
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/obj/Debug/net8.0/Szineszek.AssemblyInfoInputs.cache
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/obj/Debug/net8.0/Szineszek.AssemblyInfo.cs
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/obj/Debug/net8.0/Szineszek.csproj.CoreCompileInputs.cache
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/obj/Debug/net8.0/Szineszek.dll
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/obj/Debug/net8.0/refint/Szineszek.dll
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/obj/Debug/net8.0/Szineszek.pdb
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/obj/Debug/net8.0/Szineszek.genruntimeconfig.cache
+/home/mate/Asztal/c#gyak/Szineszek/Szineszek/obj/Debug/net8.0/ref/Szineszek.dll

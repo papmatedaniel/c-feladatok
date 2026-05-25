@@ -1,0 +1,14 @@
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/bin/Debug/net8.0/Hotellift
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/bin/Debug/net8.0/Hotellift.deps.json
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/bin/Debug/net8.0/Hotellift.runtimeconfig.json
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/bin/Debug/net8.0/Hotellift.dll
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/bin/Debug/net8.0/Hotellift.pdb
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/obj/Debug/net8.0/Hotellift.GeneratedMSBuildEditorConfig.editorconfig
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/obj/Debug/net8.0/Hotellift.AssemblyInfoInputs.cache
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/obj/Debug/net8.0/Hotellift.AssemblyInfo.cs
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/obj/Debug/net8.0/Hotellift.csproj.CoreCompileInputs.cache
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/obj/Debug/net8.0/Hotellift.dll
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/obj/Debug/net8.0/refint/Hotellift.dll
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/obj/Debug/net8.0/Hotellift.pdb
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/obj/Debug/net8.0/Hotellift.genruntimeconfig.cache
+/home/mate/Asztal/c#gyak/Hotellift/Hotellift/obj/Debug/net8.0/ref/Hotellift.dll

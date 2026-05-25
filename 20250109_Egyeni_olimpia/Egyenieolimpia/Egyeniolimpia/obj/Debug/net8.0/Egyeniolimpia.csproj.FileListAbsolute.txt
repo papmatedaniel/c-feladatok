@@ -1,0 +1,14 @@
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/bin/Debug/net8.0/Egyeniolimpia
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/bin/Debug/net8.0/Egyeniolimpia.deps.json
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/bin/Debug/net8.0/Egyeniolimpia.runtimeconfig.json
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/bin/Debug/net8.0/Egyeniolimpia.dll
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/bin/Debug/net8.0/Egyeniolimpia.pdb
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/obj/Debug/net8.0/Egyeniolimpia.GeneratedMSBuildEditorConfig.editorconfig
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/obj/Debug/net8.0/Egyeniolimpia.AssemblyInfoInputs.cache
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/obj/Debug/net8.0/Egyeniolimpia.AssemblyInfo.cs
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/obj/Debug/net8.0/Egyeniolimpia.csproj.CoreCompileInputs.cache
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/obj/Debug/net8.0/Egyeniolimpia.dll
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/obj/Debug/net8.0/refint/Egyeniolimpia.dll
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/obj/Debug/net8.0/Egyeniolimpia.pdb
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/obj/Debug/net8.0/Egyeniolimpia.genruntimeconfig.cache
+/home/mate/Asztal/c#gyak/Egyenieolimpia/Egyeniolimpia/obj/Debug/net8.0/ref/Egyeniolimpia.dll

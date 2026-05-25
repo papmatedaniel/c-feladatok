@@ -1,0 +1,14 @@
+/home/mate/Asztal/c#gyak/Etelek/Etelek/bin/Debug/net8.0/Etelek
+/home/mate/Asztal/c#gyak/Etelek/Etelek/bin/Debug/net8.0/Etelek.deps.json
+/home/mate/Asztal/c#gyak/Etelek/Etelek/bin/Debug/net8.0/Etelek.runtimeconfig.json
+/home/mate/Asztal/c#gyak/Etelek/Etelek/bin/Debug/net8.0/Etelek.dll
+/home/mate/Asztal/c#gyak/Etelek/Etelek/bin/Debug/net8.0/Etelek.pdb
+/home/mate/Asztal/c#gyak/Etelek/Etelek/obj/Debug/net8.0/Etelek.GeneratedMSBuildEditorConfig.editorconfig
+/home/mate/Asztal/c#gyak/Etelek/Etelek/obj/Debug/net8.0/Etelek.AssemblyInfoInputs.cache
+/home/mate/Asztal/c#gyak/Etelek/Etelek/obj/Debug/net8.0/Etelek.AssemblyInfo.cs
+/home/mate/Asztal/c#gyak/Etelek/Etelek/obj/Debug/net8.0/Etelek.csproj.CoreCompileInputs.cache
+/home/mate/Asztal/c#gyak/Etelek/Etelek/obj/Debug/net8.0/Etelek.dll
+/home/mate/Asztal/c#gyak/Etelek/Etelek/obj/Debug/net8.0/refint/Etelek.dll
+/home/mate/Asztal/c#gyak/Etelek/Etelek/obj/Debug/net8.0/Etelek.pdb
+/home/mate/Asztal/c#gyak/Etelek/Etelek/obj/Debug/net8.0/Etelek.genruntimeconfig.cache
+/home/mate/Asztal/c#gyak/Etelek/Etelek/obj/Debug/net8.0/ref/Etelek.dll

@@ -1,0 +1,14 @@
+/home/mate/Asztal/c#gyak/Angolkozmodasok/bin/Debug/net8.0/Angolkozmodasok
+/home/mate/Asztal/c#gyak/Angolkozmodasok/bin/Debug/net8.0/Angolkozmodasok.deps.json
+/home/mate/Asztal/c#gyak/Angolkozmodasok/bin/Debug/net8.0/Angolkozmodasok.runtimeconfig.json
+/home/mate/Asztal/c#gyak/Angolkozmodasok/bin/Debug/net8.0/Angolkozmodasok.dll
+/home/mate/Asztal/c#gyak/Angolkozmodasok/bin/Debug/net8.0/Angolkozmodasok.pdb
+/home/mate/Asztal/c#gyak/Angolkozmodasok/obj/Debug/net8.0/Angolkozmodasok.GeneratedMSBuildEditorConfig.editorconfig
+/home/mate/Asztal/c#gyak/Angolkozmodasok/obj/Debug/net8.0/Angolkozmodasok.AssemblyInfoInputs.cache
+/home/mate/Asztal/c#gyak/Angolkozmodasok/obj/Debug/net8.0/Angolkozmodasok.AssemblyInfo.cs
+/home/mate/Asztal/c#gyak/Angolkozmodasok/obj/Debug/net8.0/Angolkozmodasok.csproj.CoreCompileInputs.cache
+/home/mate/Asztal/c#gyak/Angolkozmodasok/obj/Debug/net8.0/Angolkozmodasok.dll
+/home/mate/Asztal/c#gyak/Angolkozmodasok/obj/Debug/net8.0/refint/Angolkozmodasok.dll
+/home/mate/Asztal/c#gyak/Angolkozmodasok/obj/Debug/net8.0/Angolkozmodasok.pdb
+/home/mate/Asztal/c#gyak/Angolkozmodasok/obj/Debug/net8.0/Angolkozmodasok.genruntimeconfig.cache
+/home/mate/Asztal/c#gyak/Angolkozmodasok/obj/Debug/net8.0/ref/Angolkozmodasok.dll

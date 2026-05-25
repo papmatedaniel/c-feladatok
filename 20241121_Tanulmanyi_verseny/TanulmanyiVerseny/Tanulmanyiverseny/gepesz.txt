@@ -1,0 +1,171 @@
+Nagy Ferenc	Gépészeti és Számítástechnikai Szki	Békéscsaba
+Baji András	Gépészeti és Számítástechnikai Szki	Békéscsaba
+Hornok Szabolcs	Gépészeti és Számítástechnikai Szki	Békéscsaba
+Wolfart Gábor	Gépészeti és Számítástechnikai Szki	Békéscsaba
+Matyasi Balázs	Eötvös	Budapest
+Lakatos László Benjamin	Eötvös	Budapest
+Lin Ten Ming	Eötvös	Budapest
+Nyíri Bence Győző	Eötvös	Budapest
+Blahó Tamás	Eötvös	Budapest
+Garami Balázs	Eötvös	Budapest
+Kovács Gyula János	Eötvös	Budapest
+Szombati Krisztián	Eötvös	Budapest
+Szabó Ferenc	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Németh Máté	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Magyar Zoltán	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Simon Dávid	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Selmeczi Noé	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Gyurkó Bence	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Forgó Dávid	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Fedor Tibor	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Boldogh Bence	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Csender Gábor	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Kóbor Levente	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Szakács Dániel	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Raksányi Mátyás	Újpesti Két Tanítási Nyelvű Műszaki Szki	Budapest
+Murár Krisztián	Bem	Cegléd
+Hangyási Tamás	Batsányi	Csongrád
+Kis Szabolcs	Mechwart	Debrecen
+Béres Gábor	Mechwart	Debrecen
+Horváth Ákos	Mechwart	Debrecen
+Szántó Tibor	Mechwart	Debrecen
+Móricz Áron	Mechwart	Debrecen
+Kádár András Szilveszter	Mechwart	Debrecen
+Szigeti Márk	Mechwart	Debrecen
+Kaszás Gyula	Mechwart	Debrecen
+Kovács Lajos	Mechwart	Debrecen
+Vas Levente József	Mechwart	Debrecen
+Kiss Tibor	Povolny Szakképző	Debrecen
+Biró István	Povolny Szakképző	Debrecen
+Angyal Endre	Bornemissza	Eger
+Haász Márk	Mechatronikai és Gépészeti Szakképző	Győr
+Zubor Lajos	Kőrösi	Hajdúnánás
+Kádár Csaba	Kőrösi	Hajdúnánás
+Gyaraki Roland	Gregus	Hódmezővásárhely
+Herczeg Csaba Ferenc	Gregus	Hódmezővásárhely
+Sziliczki Ádám	Eötvös	Kaposvár
+László Richárd	Eötvös	Kaposvár
+Tóth Bence	Eötvös	Kaposvár
+Gábor Ferenc	Eötvös	Kaposvár
+Hum Jázon	Műszaki Szakképző	Kecskemét
+Góbor Krisztián	Műszaki Szakképző	Kecskemét
+Németh Krisztián Zsolt	Wattay Középiskola	Kiskörös
+Kristóf Áron	Wattay Középiskola	Kiskörös
+Muratovic Ervin	Wattay Középiskola	Kiskörös
+Krizsán Zsolt	Wattay Középiskola	Kiskörös
+Tasnádi László	Wattay Középiskola	Kiskörös
+Péli Áron	Wattay Középiskola	Kiskörös
+Horváth Roland	Szent Benedek Gimnázium	Kiskunfélegyháza
+Darabos Gábor	Szent Benedek Gimnázium	Kiskunfélegyháza
+Somogyi István	Szent Benedek Gimnázium	Kiskunfélegyháza
+Pálinkás Ádám	Szent Benedek Gimnázium	Kiskunfélegyháza
+Szobedek Kristóf	Szent Benedek Gimnázium	Kiskunfélegyháza
+Szarka-Kovács Csaba	Szent Benedek Gimnázium	Kiskunfélegyháza
+Hegedűs Dávid	Szent Benedek Gimnázium	Kiskunfélegyháza
+Szűcs Gergő	Szent Benedek Gimnázium	Kiskunfélegyháza
+Kósa Endre	Szent Benedek Gimnázium	Kiskunfélegyháza
+Kovács Krisztián	Szent Benedek Gimnázium	Kiskunfélegyháza
+Kerti Dániel	Szent Benedek Gimnázium	Kiskunfélegyháza
+Kiss-Elek Balázs	Szent Benedek Gimnázium	Kiskunfélegyháza
+Hargitai Balázs	Szent Benedek Gimnázium	Kiskunfélegyháza
+Harkai Tamás	Szent Benedek Gimnázium	Kiskunfélegyháza
+Pálinkás Dániel	Szent Benedek Gimnázium	Kiskunfélegyháza
+Pogány Mihály	Szent Benedek Gimnázium	Kiskunfélegyháza
+Almási Szilárd	Szent Benedek Gimnázium	Kiskunfélegyháza
+Udvardi Béla	Szent Benedek Gimnázium	Kiskunfélegyháza
+Somogyi Szabolcs	Szent Benedek Gimnázium	Kiskunfélegyháza
+Kis Géza	Szent Benedek Gimnázium	Kiskunfélegyháza
+Patai Zsolt	Szent Benedek Gimnázium	Kiskunfélegyháza
+Kuklis Dániel	Szent Benedek Gimnázium	Kiskunfélegyháza
+Fodor Bence	Mezőgazdasági Szakképző	Makó
+Arácsi Sándor	Mezőgazdasági Szakképző	Makó
+Kondász Attila	Mezőgazdasági Szakképző	Makó
+Németh Bálint	Kós	Miskolc
+Pék Péter	Andrássy	Miskolc
+Barna Bence	Andrássy	Miskolc
+Kántor Kristóf	Andrássy	Miskolc
+Nagy Róbert	Andrássy	Miskolc
+Nádasi Máté	Andrássy	Miskolc
+Ser László	Andrássy	Miskolc
+Abonyi Mátyás	Műszaki Szakképző	Nagykanizsa
+Pintér Szabolcs	Műszaki Szakképző	Nagykanizsa
+Németh Marcell	Műszaki Szakképző	Nagykanizsa
+Németh Csaba	Műszaki Szakképző	Nagykanizsa
+Solymosi Róbert Csaba	Műszaki Szakképző	Nagykanizsa
+Cséplő Norbert	Műszaki Szakképző	Nagykanizsa
+Havasi Ákos	Műszaki Szakképző	Nagykanizsa
+Bazsó Bence Ferenc	Műszaki Szakképző	Nagykanizsa
+Bánfai Zsolt	Műszaki Szakképző	Nagykanizsa
+Marton Róbert	Műszaki Szakképző	Nagykanizsa
+Molnár Martin	Műszaki Szakképző	Nagykanizsa
+Juhász Sándor	Bánki	Nyíregyháza
+Garai Gergő	Bánki	Nyíregyháza
+Horváth Máté	Bánki	Nyíregyháza
+Molnár Mikeás	Bánki	Nyíregyháza
+Dozsnyák Ábrahám	Bánki	Nyíregyháza
+Vámosi Tibor Márk	Hamvas Szakképző	Oroszlány
+Dezső Renáta	Hamvas Szakképző	Oroszlány
+Nagy Krisztián	Zipernowsky	Pécs
+Bori Dániel	Zipernowsky	Pécs
+Bubreg Máté	Zipernowsky	Pécs
+Beck László	Zipernowsky	Pécs
+Zsély Bence	Stromfeld	Salgótarján
+Fekete Gábor	Stromfeld	Salgótarján
+Kazinczi Mihály Ákos	Stromfeld	Salgótarján
+Stefán Erik	Széchenyi	Százhalombatta
+Kneif Réka	Széchenyi	Százhalombatta
+Palotás Norbert	Móravárosi Ipari Szakképző	Szeged
+Deák Dénes Gábor	Móravárosi Ipari Szakképző	Szeged
+Maróti Tibor Roland	Móravárosi Ipari Szakképző	Szeged
+Ulita Florin Denis	Móravárosi Ipari Szakképző	Szeged
+Molnár István	Móravárosi Ipari Szakképző	Szeged
+Szőke Barnabás	Móravárosi Ipari Szakképző	Szeged
+Kóti Péter	Szigeti Endre Szakképző	Szeghalom
+Bede Balázs	Szigeti Endre Szakképző	Szeghalom
+Tóth András	Széchenyi	Székesfehérvár
+Sári Dávid Elek	Széchenyi	Székesfehérvár
+Kokány Péter	Széchenyi	Székesfehérvár
+Bozsoki Zsolt	Széchenyi	Székesfehérvár
+Tósoki Dávid	Széchenyi	Székesfehérvár
+Vachtler Szabolcs	Széchenyi	Székesfehérvár
+Dancsó Gábor	Széchenyi	Székesfehérvár
+Sas László	Műszaki Szki	Szolnok
+Mihálycsik Martin	Műszaki Szki	Szolnok
+Pekárik Dániel Imre	Műszaki Szki	Szolnok
+Fodor Péter	Műszaki Szki	Szolnok
+Donkó Károly	Műszaki Szki	Szolnok
+Gérnyi Martin	Műszaki Szakképző	Szombathely
+Nagy András István	Műszaki Szakképző	Szombathely
+Németh Roland Csaba	Műszaki Szakképző	Szombathely
+Horváth Márk	Műszaki Szakképző	Szombathely
+Józsa Tamás	Műszaki Szakképző	Szombathely
+Balázs Márk Attila	Műszaki Szakképző	Szombathely
+Lajos Róbert	Műszaki Szakképző	Szombathely
+Nagy Zoltán	Műszaki Szakképző	Szombathely
+Fábián Dávid	Integrált Szi	Tatabánya
+Kővári Imre László	Integrált Szi	Tatabánya
+Kulman Renátó	Integrált Szi	Tatabánya
+Molnár Deli Tódor	Integrált Szi	Tatabánya
+Borbély Attila Benjamin	Integrált Szi	Tatabánya
+Borbély Egon Olivér	Integrált Szi	Tatabánya
+Kocsi Zoltán	Integrált Szi	Tatabánya
+Kun Gergő	Integrált Szi	Tatabánya
+Mészáros Csaba	Integrált Szi	Tatabánya
+Horváthy Krisztián	Integrált Szi	Tatabánya
+Balla Gergő	Integrált Szi	Tatabánya
+Schmidt Tamás	Integrált Szi	Tatabánya
+Mellencsuk Imre Attila	Integrált Szi	Tatabánya
+Szabó Ábel	Integrált Szi	Tatabánya
+Kalácska Eszter	Boronkay	Vác
+Szlobodnik Tamás	Boronkay	Vác
+Balázsy Ádám	Boronkay	Vác
+Ullrich Kristóf	Boronkay	Vác
+Karcsai Jammel Sebő	Boronkay	Vác
+Hulka László	Ipari Szki	Veszprém
+Orgoványi Csaba	Ipari Szki	Veszprém
+Balta Róbert	Ipari Szki	Veszprém
+Gulkai Dávid	Ipari Szki	Veszprém
+Biróczky Máté	Ipari Szki	Veszprém
+Berkes Dávid	Ipari Szki	Veszprém
+Szép Endre	Ganz	Zalaegerszeg
+Farkas Gergő	Ganz	Zalaegerszeg

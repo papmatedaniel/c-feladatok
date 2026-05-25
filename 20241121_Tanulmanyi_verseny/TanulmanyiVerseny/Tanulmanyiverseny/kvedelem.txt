@@ -1,0 +1,60 @@
+Bucséter Martin	Szent László ÁMK	Baja
+Kotek Tamás	Szent László ÁMK	Baja
+Szekszárdi Krisztina Viktória	Eötvös	Budapest
+Jansik Krisztián	Eötvös	Budapest
+Kiss Henriett Anna	Eötvös	Budapest
+Bakai Norbert	Eötvös	Budapest
+Szűcs Mátyás	Eötvös	Budapest
+Polyák Zoltán	Eötvös	Budapest
+Sándor Balázs	Eötvös	Budapest
+Deák Richárd	Eötvös	Budapest
+Varga Márton	Petrik	Budapest
+Nyilas Balázs	Petrik	Budapest
+Grmela Máté	Petrik	Budapest
+Takáts Tamás	Semmelweis	Budapest
+Surák Gabriella	Semmelweis	Budapest
+Horváth Bianka	Than	Budapest
+Orosz András	Than	Budapest
+Mirk Tünde	Than	Budapest
+Balogh Bence	Petrik	Budapest
+Faragó Zsanett	Petrik	Budapest
+Csizmarik Zsanett	Vásárhelyi	Nyíregyháza
+D. Szűcs János	Vásárhelyi	Nyíregyháza
+Gál Bence László	Vásárhelyi	Nyíregyháza
+Ládi Alexandra	Vásárhelyi	Nyíregyháza
+Kiss Ivett	Vásárhelyi	Nyíregyháza
+Korpai Zoltán	Vásárhelyi	Nyíregyháza
+Urr Máté	Vásárhelyi	Nyíregyháza
+Hreskó Ádám	Vásárhelyi	Nyíregyháza
+Varga Lilla	Vásárhelyi	Nyíregyháza
+Valendorfean Barbara	Vásárhelyi	Nyíregyháza
+Szűcs Bence	Vásárhelyi	Nyíregyháza
+Kuik Balázs	Vásárhelyi	Nyíregyháza
+Marozsán Regina	Vásárhelyi	Nyíregyháza
+Lábas Norbert	Vásárhelyi	Nyíregyháza
+Gyurica Ákos	Vásárhelyi	Nyíregyháza
+Ratkó Renátó	Vásárhelyi	Nyíregyháza
+Ujj László Dániel	Vásárhelyi	Nyíregyháza
+Ferencz Kitti	Vásárhelyi	Nyíregyháza
+Kreidl Enikő	Vásárhelyi	Nyíregyháza
+Soltész Ádám	Vásárhelyi	Nyíregyháza
+Nagy Róbert László	Vásárhelyi	Nyíregyháza
+Ducsai Dávid	Vásárhelyi	Nyíregyháza
+Pisák János	Vásárhelyi	Nyíregyháza
+Liptai Elizabet	Vásárhelyi	Nyíregyháza
+Szigeti Viktória	Energetikai Szki	Paks
+Major Balázs	Energetikai Szki	Paks
+Baracz Boglárka	Energetikai Szki	Paks
+Vida Tamás	Karacs Ferenc Gimnázium	Püspökladány
+Vér Richárd	Gábor Dénes Szki	Szeged
+Koch Márk	Műszaki Szki	Szolnok
+Vajda Dóra	Műszaki Szki	Szolnok
+Maróti Máté	Műszaki Szki	Szolnok
+Süő Balázs Péter	Műszaki Szki	Szolnok
+Ronyecz Richárd Zsolt	Műszaki Szki	Szolnok
+Varga Lajos	Tokaji Ferenc Gimnázium	Tokaj
+Kaczur Dávid	Tokaji Ferenc Gimnázium	Tokaj
+Bodnár Péter	Tokaji Ferenc Gimnázium	Tokaj
+Takács Zoltán	Tokaji Ferenc Gimnázium	Tokaj
+Svéd Dániel	Ipari Szki	Veszprém
+Kálmán Anna	Ipari Szki	Veszprém

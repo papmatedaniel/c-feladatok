@@ -1,0 +1,3 @@
+Helsinki;Kovács Pál;1952;vívás;1912;kard egyéni
+Róma;Kárpáti Rudolf;1960;vívás;1920;kard egyéni
+Melbourne;Kárpáti Rudolf;1956;vívás;1920;kard egyéni

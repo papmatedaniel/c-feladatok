@@ -1,0 +1,14 @@
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/bin/Debug/net8.0/Helsinki
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/bin/Debug/net8.0/Helsinki.deps.json
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/bin/Debug/net8.0/Helsinki.runtimeconfig.json
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/bin/Debug/net8.0/Helsinki.dll
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/bin/Debug/net8.0/Helsinki.pdb
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/obj/Debug/net8.0/Helsinki.GeneratedMSBuildEditorConfig.editorconfig
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/obj/Debug/net8.0/Helsinki.AssemblyInfoInputs.cache
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/obj/Debug/net8.0/Helsinki.AssemblyInfo.cs
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/obj/Debug/net8.0/Helsinki.csproj.CoreCompileInputs.cache
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/obj/Debug/net8.0/Helsinki.dll
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/obj/Debug/net8.0/refint/Helsinki.dll
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/obj/Debug/net8.0/Helsinki.pdb
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/obj/Debug/net8.0/Helsinki.genruntimeconfig.cache
+/home/mate/Asztal/c#gyak/Helsinki/Helsinki/obj/Debug/net8.0/ref/Helsinki.dll

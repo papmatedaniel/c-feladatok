@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6mmRZNzu/wgAC8JfQt3jmNtjKPLYY6iAogAH9UKpRSFr9zZ7j0W5MBkdE5ELdCkx3/TsnsvidXOCAU8MgugLxg==",
+  "success": true,
+  "projectFilePath": "/home/mate/Asztal/c#gyak/Kektura/Kektura/Kektura.csproj",
+  "expectedPackageFiles": [
+    "/home/mate/.nuget/packages/microsoft.dotnet.ilcompiler/8.0.26/microsoft.dotnet.ilcompiler.8.0.26.nupkg.sha512",
+    "/home/mate/.nuget/packages/microsoft.net.illink.tasks/8.0.26/microsoft.net.illink.tasks.8.0.26.nupkg.sha512",
+    "/home/mate/.nuget/packages/runtime.linux-x64.microsoft.dotnet.ilcompiler/8.0.26/runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

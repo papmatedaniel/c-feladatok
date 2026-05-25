@@ -1,0 +1,14 @@
+/home/mate/Asztal/c#gyak/Kektura/Kektura/bin/Debug/net8.0/Kektura
+/home/mate/Asztal/c#gyak/Kektura/Kektura/bin/Debug/net8.0/Kektura.deps.json
+/home/mate/Asztal/c#gyak/Kektura/Kektura/bin/Debug/net8.0/Kektura.runtimeconfig.json
+/home/mate/Asztal/c#gyak/Kektura/Kektura/bin/Debug/net8.0/Kektura.dll
+/home/mate/Asztal/c#gyak/Kektura/Kektura/bin/Debug/net8.0/Kektura.pdb
+/home/mate/Asztal/c#gyak/Kektura/Kektura/obj/Debug/net8.0/Kektura.GeneratedMSBuildEditorConfig.editorconfig
+/home/mate/Asztal/c#gyak/Kektura/Kektura/obj/Debug/net8.0/Kektura.AssemblyInfoInputs.cache
+/home/mate/Asztal/c#gyak/Kektura/Kektura/obj/Debug/net8.0/Kektura.AssemblyInfo.cs
+/home/mate/Asztal/c#gyak/Kektura/Kektura/obj/Debug/net8.0/Kektura.csproj.CoreCompileInputs.cache
+/home/mate/Asztal/c#gyak/Kektura/Kektura/obj/Debug/net8.0/Kektura.dll
+/home/mate/Asztal/c#gyak/Kektura/Kektura/obj/Debug/net8.0/refint/Kektura.dll
+/home/mate/Asztal/c#gyak/Kektura/Kektura/obj/Debug/net8.0/Kektura.pdb
+/home/mate/Asztal/c#gyak/Kektura/Kektura/obj/Debug/net8.0/Kektura.genruntimeconfig.cache
+/home/mate/Asztal/c#gyak/Kektura/Kektura/obj/Debug/net8.0/ref/Kektura.dll
