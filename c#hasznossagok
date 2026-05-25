@@ -1,0 +1,275 @@
+1. Tipusok:
+
+int szam = 1;
+double nemegeszszam = 1.1;
+string szoveg = "haloo";
+
+2. Kiiratás
+Console.Write("valami"); //egysorba
+Console.WriteLine("asd") //külön sorba mindent
+Console.WriteLine($"{valtozo}") // valtozo kiiratása 
+
+2. Kiiratási trükkök:
+Console.WriteLine("\nkiskacsa\n") // a \n új sort nyit
+Console.WriteLine("\tvalami\t") // a \t pedig tab-ot jelent
+
+Inputbekérés
+string bekertszoveg = Console.ReadLine();
+
+3. Műveletek:
++ összeadás
+- kivonás
+* szorzás
+/ osztás 
+% maradékos osztás
+nem egész osztás csak úgy jön ki, ha az egyik szám double
+
+Logikai operátorok:
+vagy: || //elég csak 1 igaz értéknek lenni
+és: && //mindegyiknek igaznak kell lennie
+
+Random szám előállítása:
+
+Random rnd = new Random:
+int szam = rnd.Next(1, 100) //1 és 100 közötti véletlenszám
+
+== egyenlő
+!= nem egyenlő
+valami = valami +1  vagy valami += 1 vagy valami++;
+>   // nagyobb
+<   // kisebb
+>=  // nagyobb vagy egyenlő
+<=  // kisebb vagy egyenlő
+
+
+BENNE VAN E.
+szoveg.Contains(karakter) // igazat ad vissza ha a keresett karakter benne van a szövegben, hamisat ha nincs
+
+
+
+4. String műveletek
+
+szoveg.Split('.') // darabolja a szöveget a . mentén, 
+szoveg.Trim() // lecsupaszítja a felesleges karaktereket a szoveg elejéről, végéről
+szoveg.replace('.', ',') //kicserél egy adott karaktert, szövegrész a szövegben, jelen esetben a.-t a ,-re
+szoveg.ToUppar() //nagybetűssé teszi a szöveget
+szoveg.ToLower() //kisbetűéss teszi a szöveget.s
+szoveg.Length //szoveg hossza
+
+
+Console.WriteLine(szam:F2) //2 tizedesjegyre kerekítve iratja ki a számot
+
+5. konvertálás
+
+int.Parse(szam) // int-é konvertál
+Convert.ToInt32(szam) // inté konvertál
+Convert.ToDouble()
+Convert.ToString()
+Convert.ToBool()
+
+6. Elágazás:
+if (valami)
+else if(valami2)
+else
+
+7. Tömbök listák.
+
+List<int> lista = new List<int>();
+lista.Add(2) // 2 hozzáadása
+lista.Remove(2) // 2 eltávolítása
+lista.Sort() //lista rendezése
+lista.Reverse() //lista megfordítása
+lista[0] //indexelés, lista 0 eleme
+lista.IndexOf(elem) //visszaadja a keresett elem indexét
+lista.Min()
+lista.Max() //legnagyobb szám
+
+
+8. file beolvasás
+
+string[] beolvas = File.ReadAllLines("oscar.csv", Encoding.UTF8); //vagy Encoding.Default
+fejlec = beolvas.First()
+foreach (var item in beolvas.Skip(1))
+{
+    adatok.Add( new Szineszek(item));
+}
+
+9. Fileba írás:
+var sw = new StreamWriter("dijazottak.csv");
+foreach (var item in adatok)
+{
+    if (item.Dijakszama > 0)
+    {
+        sw.WriteLine($"{item.Nev};{item.Ev};{item.Csillagjegy};{item.Dijakszama}");
+    }
+}
+sw.Close();
+
+
+VAGY
+using (var sw = new StreamWriter("magasak.txt"))
+{
+    foreach (var item in adatok.Where(y => y.Magassag > adatok.Average(x => x.Magassag)))
+    {
+        sw.WriteLine($"{item.Nev} {item.Magassag}");
+    }
+}
+
+10. osztály létrehozása:
+class Versenyzok
+{
+    
+    public int Helyezes;
+    public string Nev;
+    public string Iskola;
+    public string Telepules;
+    public double Eredmeny;
+    public string Csoport;
+
+    public Versenyzok(string sor)
+    {
+        
+        string[] darabok = sor.Trim().Split("\t");
+        Helyezes = Convert.ToInt32(darabok[0]);
+        Nev = darabok[1];
+        Iskola = darabok[2];
+        Telepules = darabok[3];
+        Eredmeny = Convert.ToDouble(darabok[4]);
+        Csoport = darabok[5];
+    }
+
+}
+
+
+11. Statisztika:
+Console.WriteLine("\n3. Feladat: Szakmacsoportok és tanulóik száma");
+Dictionary<string, int> stat = new Dictionary<string, int>();
+foreach (var item in adatok)
+{
+    if (!stat.ContainsKey(item.Csoport))
+    {
+        stat[item.Csoport] = 0;
+    }
+    stat[item.Csoport]++;
+}
+foreach (var item in stat)
+{
+    Console.WriteLine($"{item.Key} - {item.Value}");
+}
+
+
+VAGY:
+foreach (var item in adatok.Where(x => x.Telepules == "Vác").GroupBy(y => y.Csoport))
+{
+    Console.WriteLine($"{item.Key}");
+}
+
+
+12. lambda, linq finomságok:
+var valami = adatok.Where(x => x.Iskola == "Eötvös" && x.Telepules == "Kaposvár").OrderBy(y => y.Helyezes).First();
+//szűrés, rendezés, első elem kiválasztása
+
+Console.WriteLine($"Összesen: {adatok.GroupBy(x => x.Iskola).Count()} iskolából voltak versenyzők");
+//csoportosítás, és csoportok számolása
+
+
+var valamiasd = adatok.GroupBy(x => x.Iskola).OrderByDescending(y => y.Count()).First();
+Console.WriteLine($"A legtöbben a {valamiasd.Key}-ból jöttek");
+//csoportosítás, rendezés csökkenő sorrendbe csoportok hossza alapján, első csoport kiválasztása
+
+
+//csoportosítás két adat alapján
+foreach (var item in adatok.GroupBy(x => new { x.Iskola, x.Telepules }))
+{
+    sw.WriteLine($"{item.Key.Iskola}\t{item.Key.Telepules}\t{item.Count()}");
+} 
+
+//max kiválasztás:
+Console.WriteLine($"5. feladat: Célszint max: {adatok.Max(x => x.Celszint)}");
+
+
+foreach (var item in adatok.GroupBy(x => x.Azon).Where(z => z.Last().Irany == "be").OrderBy(y => y.Key))
+//csoportosítás, szűrés, rendezls
+
+
+int osszeg =  adatok.Sum(x => x.Golokszama); //összegzés golokszama szerint
+Console.WriteLine($"7. feladat: {adatok.Count(x => x.SikeresHetmeteres > 0)} játékos dobott hétméterest.");
+//szamlalas feltetel szerint
+
+
+
+Console.WriteLine($"11. feladat: A cspat átlagmagassága {adatok.Average(x => x.Magassag)} cm.");
+//átlag magasság szerint
+
+
+//benne van e:
+bool vanE = adatok.Any(x => x.Iskola == "Eötvös");
+
+
+List<Versenyzok> adatok = File.ReadAllLines("oscar.csv")
+                              .Skip(1)
+                              .Select(sor => new Versenyzok(sor))
+                              .ToList();
+
+
+13. DÁTUM:
+//dátummá alakítás, és kiiratás
+        Console.WriteLine($"4. feladat: Időszak: {adatok.First().Datum.ToString("yyyy.MM.dd")} - {adatok.Last().Datum.ToString("yyyy.MM.dd")}");
+
+Datum = new DateTime(int.Parse(datumja[0]), int.Parse(datumja[1]), int.Parse(datumja[2]));
+
+14. hibakezelés:
+try
+{
+    kszam = int.Parse(Console.ReadLine());        
+}
+catch (System.Exception)
+{
+    
+    kszam = 5;
+}
+
+15. Osztályos dolgok
+public static List<Kezilabda> adatok = new List<Kezilabda>();
+
+
+16. usingok:
+Íme a 20 leggyakoribb `using` irányelv C# konzolos alkalmazásokban, tömör, 1-2 szavas magyarázattal:
+
+1. **`using System;`** – Alaptípusok, konzolkezelés.
+2. **`using System.Collections.Generic;`** – Listák, szótárak.
+3. **`using System.Linq;`** – Adatlekérdezések, szűrések.
+4. **`using System.Threading.Tasks;`** – Aszinkron programozás.
+5. **`using System.IO;`** – Fájlkezelés.
+6. **`using System.Text;`** – Szövegkódolás, StringBuilder.
+7. **`using System.Text.Json;`** – JSON szerializáció.
+8. **`using System.Net.Http;`** – Webes kérések (HttpClient).
+9. **`using System.Diagnostics;`** – Időmérés, hibakeresés.
+10. **`using System.Globalization;`** – Régióformátumok (nyelvek).
+11. **`using System.Threading;`** – Szálkezelés, várakoztatás.
+12. **`using System.Text.RegularExpressions;`** – Reguláris kifejezések (Regex).
+13. **`using Microsoft.Extensions.Configuration;`** – Beállítások (appsettings.json).
+14. **`using Microsoft.EntityFrameworkCore;`** – Adatbázis-kezelés (ORM).
+15. **`using System.Reflection;`** – Kódvizsgálat (metaadatok).
+16. **`using System.ComponentModel.DataAnnotations;`** – Adatmodell validáció.
+17. **`using System.Data;`** – Hagyományos adatkezelés (ADO.NET).
+18. **`using System.Numerics;`** – Matematikai vektorok, nagy számok.
+19. **`using System.Security.Cryptography;`** – Titkosítás, hashelés.
+20. **`using System.Net;`** – Hálózati címek, protokollok.
+
+17. Ciklusok:
+// FOR ciklus - ha fixen tudod, hányszor fusson (pl. 0-tól 9-ig)
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine(i);
+}
+
+// WHILE ciklus - addig fut, amíg a feltétel igaz (pl. jó inputra várunk)
+while (szam < 5)
+{
+    szam++;
+}
+
+//FOREACH ciklus - bejáró ciklus
+
+foreach (var item in adat) 
